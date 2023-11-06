@@ -3,7 +3,7 @@ pipeline{
 	stages {
 		stages('Clone'){
 			steps {
-				git ''
+				git 'https://github.com/cuongdq9131/jenkins-github'
 			}
 		
 		}
